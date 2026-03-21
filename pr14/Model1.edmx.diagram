@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="23cf1aa69b784d3b822653c455464eee" Name="Diagram1">
+        <EntityTypeShape EntityType="KinohallModel.AgeRating" Width="1.5" PointX="1.5" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KinohallModel.Genre" Width="1.5" PointX="1.5" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KinohallModel.Hal" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KinohallModel.Movie" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KinohallModel.Seats" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KinohallModel.Session" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KinohallModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KinohallModel.Ticket" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KinohallModel.Users" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="KinohallModel.FK__Movie__IdAgeRati__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="KinohallModel.FK_Seats_Hal" ManuallyRouted="false" />
+        <AssociationConnector Association="KinohallModel.FK_Session_Hal" ManuallyRouted="false" />
+        <AssociationConnector Association="KinohallModel.FK_Session_Movie" ManuallyRouted="false" />
+        <AssociationConnector Association="KinohallModel.FK_Ticket_Seats" ManuallyRouted="false" />
+        <AssociationConnector Association="KinohallModel.FK_Ticket_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="KinohallModel.FK_Ticket_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="KinohallModel.MovieGenre" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
